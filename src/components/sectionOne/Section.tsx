@@ -1,9 +1,10 @@
 import React from 'react';
 import c from './section.module.css';
 import img from '../../img/news.png';
-import {ReactComponent as Linkedin} from '../../img/linkedin.svg'
-import {ReactComponent as Instagram} from '../../img/instagram2.svg'
-import {ReactComponent as Telegram} from '../../img/telegram.svg'
+import {ReactComponent as Linkedin} from "@/img/linkedin.svg";
+import {ReactComponent as Instagram} from "@/img/instagram2.svg";
+import {ReactComponent as Telegram} from "@/img/telegram.svg";
+
 
 export const Section = () => {
 
@@ -42,8 +43,8 @@ export const Section = () => {
                     </div>
                     <div className={c.contacts}>
                         <div>
-                            <h4>Feedback</h4>
-                            <p><a href=""></a>Click:)</p>
+                            <h4>Contact me</h4>
+                            <p><a target={"_blank"}  href="https://form.jotform.com/231055600416040">Click:)</a></p>
                         </div>
                         <div>
                             <h4>Email</h4>
