@@ -1,14 +1,12 @@
 import React from 'react';
 import c from './section.module.css';
 import img from '../../img/news.png';
-import { ReactComponent as Linkedin } from '../../img/linkedin.svg'
-import { ReactComponent as Instagram } from '../../img/instagram2.svg'
-import { ReactComponent as Telegram } from '../../img/telegram.svg'
+import {ReactComponent as Linkedin} from '../../img/linkedin.svg'
+import {ReactComponent as Instagram} from '../../img/instagram2.svg'
+import {ReactComponent as Telegram} from '../../img/telegram.svg'
 
 export const Section = () => {
-   const feedbackFunction =()=>{
 
-    }
     return (
         <div className={c.border}>
 
@@ -24,9 +22,9 @@ export const Section = () => {
                 <div className={c.profile}>
                     <h3>Web Developer & Frontend Expert</h3>
                     <div className={c.soc}>
-                        <Linkedin className={c.soc} />
-                       <Instagram className={c.soc}/>
-                       <Telegram className={c.soc}/>
+                        <Linkedin className={c.soc}/>
+                        <Instagram className={c.soc}/>
+                        <Telegram className={c.soc}/>
                     </div>
 
                 </div>
@@ -45,11 +43,11 @@ export const Section = () => {
                     <div className={c.contacts}>
                         <div>
                             <h4>Feedback</h4>
-                                <p onClick={feedbackFunction}>Feedback</p>
+                            <p><a href=""></a>Click:)</p>
                         </div>
                         <div>
                             <h4>Email</h4>
-                                <p>yarmoshkoden18m@gmail.com</p>
+                            <p>yarmoshkoden18m@gmail.com</p>
                         </div>
 
                     </div>
