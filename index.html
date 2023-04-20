@@ -9,6 +9,29 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <script>
+      window.senderBannerCallback = function() {
+        SenderBanner.init({
+          companyName: "Company +033337229003013",
+          companyLogo: "https://s.sender.mobi/image/2015/11/27/330cd0d0-7c4d-412e-b43c-23d1e520a90d/company_avatar.png",
+          companyColor: "#7f80b0",
+          bannerInstall: "Установите",
+          bannerSearch: "Напишите в поиске",
+          bannerOrder: "Закажите и оплатите товар или услугу",
+          title: "Как пользоваться нашим приложением?"
+        });
+      }
+    </script>
+    <script id='banner-script'>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        js = d.createElement(s);
+        js.src = "https://widget.sender.mobi/banner/js/banner-min.js";
+        document.body.appendChild(js);
+      })(document, 'script');
+    </script>
+
     <script>
       window.senderCallback = function() {
         SenderWidget.init({
