@@ -171,20 +171,15 @@
 
 @media all and (max-width: 1200px) {
     .soc {
-        margin-top: 5%;
+        margin-top: 2%;
     }
 }
 
-.soc a {
+.soc svg + svg {
     margin-left: 10px;
 }
 
-.soc a:hover {
-    color: white;
-
-}
-
-.soc a svg path:hover {
+.soc  svg path:hover {
     fill: #e0a80d;
     transition: all 0.4s ease-in-out 0s;
 }

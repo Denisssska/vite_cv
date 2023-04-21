@@ -1,7 +1,7 @@
 import React from 'react';
-import c from './sectionThree.module.css'
+import c from './expertise.module.css'
 
-export const SectionThree = () => {
+export const Expertise = () => {
 
     return (
         <div className={c.container}>

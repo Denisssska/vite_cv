@@ -1,16 +1,17 @@
 import React from 'react';
 import c from './App.module.css'
-import {Footer, Section, SectionFive, SectionForProject, SectionFour, SectionThree, SectionTwo} from "$components";
+import {Footer, Section, Education, Projects, Skills,Expertise, Intro} from "$components";
+
 
 function App() {
     return (
         <div className={c.app}>
             <Section/>
-            <SectionTwo/>
-            <SectionThree/>
-            <SectionFour/>
-            <SectionFive/>
-            <SectionForProject/>
+            <Intro/>
+            <Expertise/>
+            <Skills/>
+            <Education/>
+            <Projects/>
             <Footer/>
         </div>
 

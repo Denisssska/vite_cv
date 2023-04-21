@@ -99,16 +99,74 @@
     height: 5px;
 }
 
-.filler {
-    width: 50%;
+.filler80 {
+    width: 80%;
     background: #e0a80d;
     height: 100%;
-    transition: width .5s ease-in-out .5s;
+    animation: ani80 2.5s forwards;
 }
-
-.filler:hover {
-    width: 30%;
+.filler60 {
+    width: 60%;
     background: #e0a80d;
     height: 100%;
-    transition: width 1s ease-in-out .2s;
+    animation: ani60 2.5s forwards;
+}
+.filler70 {
+    width: 70%;
+    background: #e0a80d;
+    height: 100%;
+    animation: ani70 2.5s forwards;
+}
+.filler50 {
+    background: #e0a80d;
+    height: 100%;
+    animation: ani50 2.5s forwards;
+}
+@keyframes ani50 {
+    0% {
+        width: 0;
+        opacity: 0;
+        /*transform: translateX(-150%);*/
+    }
+    100% {
+        width: 50%;
+        opacity: 1;
+        /*transform: translateX(0);*/
+    }
+}
+@keyframes ani60 {
+    0% {
+        width: 0;
+        opacity: 0;
+        /*transform: translateX(-150%);*/
+    }
+    100% {
+        width: 60%;
+        opacity: 1;
+        /*transform: translateX(0);*/
+    }
+}
+@keyframes ani70 {
+    0% {
+        width: 0;
+        opacity: 0;
+        /*transform: translateX(-150%);*/
+    }
+    100% {
+        width: 70%;
+        opacity: 1;
+        /*transform: translateX(0);*/
+    }
+}
+@keyframes ani80 {
+    0% {
+        width: 0;
+        opacity: 0;
+        /*transform: translateX(-150%);*/
+    }
+    100% {
+        width: 80%;
+        opacity: 1;
+        /*transform: translateX(0);*/
+    }
 }

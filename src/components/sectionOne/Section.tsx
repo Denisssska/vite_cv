@@ -39,16 +39,20 @@ export const Section = () => {
                         </div>
                         <div>
                             <h4>Phone</h4>
-                            <p>+375 29 574-39-21</p></div>
+                            <p>
+                                <a href={'tel:+375 29 574-39-21'}>+375 29 574-39-21</a>
+                            </p>
+                        </div>
                     </div>
                     <div className={c.contacts}>
                         <div>
                             <h4>Contact me</h4>
-                            <p><a target={"_blank"}  href="https://form.jotform.com/231055600416040">Click:)</a></p>
+                            <p><a target={"_blank"} href="https://form.jotform.com/231055600416040">Click:)</a></p>
                         </div>
                         <div>
                             <h4>Email</h4>
-                            <p>yarmoshkoden18m@gmail.com</p>
+                            {/*<p>yarmoshkoden18m@gmail.com</p>*/}
+                            <p><a href={'mailto:yarmoshkoden18m@gmail.com'}>yarmoshkoden18m@gmail.com</a></p>
                         </div>
 
                     </div>

@@ -1,7 +1,7 @@
 import React from 'react';
-import c from './sectionFive.module.css';
+import c from './education.module.css';
 
-export const SectionFive = () => {
+export const Education = () => {
     return (
         <div className={c.container}>
             <div className={c.border}>

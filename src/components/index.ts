@@ -1,12 +1,11 @@
 import { Footer } from "./footer/Footer";
-import { Navigation } from "./nav/Navigation";
-import { SectionFive } from "./sectionFive/SectionFive";
-import { SectionForProject } from "./sectionForProject/SectionForProject";
-import { SectionFour } from "./sectionFour/SectionFour";
+import { Education } from "./education/Education";
+import { Projects } from "./projects/Projects";
+import { Skills } from "./skills/Skills";
 import { Section } from "./sectionOne/Section";
-import { SectionThree } from "./sectionThree/SectionThree";
-import { SectionTwo } from "./sectionTwo/SectionTwo";
+import { Expertise } from "./expertise/Expertise";
+import { Intro } from "./intro/Intro";
 
 export {
-    Footer,Navigation,SectionFive,SectionFour,SectionThree,SectionTwo,Section,SectionForProject
+    Footer,Education,Skills,Expertise,Intro,Section,Projects
 }

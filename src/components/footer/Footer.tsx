@@ -24,7 +24,7 @@ export const Footer = () => {
                             </div>
                             <div>
                                 <h4>Phone</h4>
-                                <p>+375 29 574-39-21</p></div>
+                                <p><a href={'tel:+375 29 574-39-21'}>+375 29 574-39-21</a></p></div>
                         </div>
                         <div className={c.contacts}>
                             <div>
